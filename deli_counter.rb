@@ -3,8 +3,8 @@ def line(line)
   when 0
     puts "The line is currently empty."
   else
-    line.each do
-      puts "The line is currently: 1. #{line[0]} #{[0..line.length]}"
+    line.each do |customer|
+      puts "The line is currently: #{line.index}. #{line[customer]}"
     end
   end
 end
