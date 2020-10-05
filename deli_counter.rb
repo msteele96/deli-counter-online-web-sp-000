@@ -5,7 +5,7 @@ def line(line)
   else
     i = 0
     until i == line.length
-      puts "The line is currently:" << " #{line.index}. #{line[i]}"
+      puts "The line is currently:" << " #{i+1}. #{line[i]}"
       i += 1
     end
   end
