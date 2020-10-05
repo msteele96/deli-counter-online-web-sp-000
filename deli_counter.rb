@@ -4,8 +4,9 @@ def line(line)
     puts "The line is currently empty."
   else
     i = 0
+    line_status = "The line is currently:"
     until i == line.length
-      line_status = "The line is currently:" << " #{i+1}. #{line[i]}"
+      line_status << " #{i+1}. #{line[i]}"
       i += 1
     end
     puts line_status
