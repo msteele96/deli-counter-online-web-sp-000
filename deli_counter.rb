@@ -5,9 +5,10 @@ def line(line)
   else
     i = 0
     until i == line.length
-      puts "The line is currently:" << " #{i+1}. #{line[i]}"
+      line_status = "The line is currently:" << " #{i+1}. #{line[i]}"
       i += 1
     end
+    puts line_status
   end
 end
 
