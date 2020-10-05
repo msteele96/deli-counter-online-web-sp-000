@@ -3,11 +3,13 @@ def line(line)
   when 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: 1. #{line[0]} #{[0..line.length]}"
+    line.each do
+      puts "The line is currently: 1. #{line[0]} #{[0..line.length]}"
+    end
   end
 end
 
 def take_a_number(line, name)
   line.push(name)
-  return `Welcome, #{name}. You are number #{line.length} in line.`
+  return "Welcome, #{name}. You are number #{line.length} in line."
 end
