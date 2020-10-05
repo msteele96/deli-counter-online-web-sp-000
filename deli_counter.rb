@@ -1,4 +1,4 @@
-line = []
+#line = []
 
 def line(line)
   case line.length
