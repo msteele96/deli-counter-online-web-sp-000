@@ -3,8 +3,10 @@ def line(line)
   when 0
     puts "The line is currently empty."
   else
-    until counter == line.length
+    i = 0
+    until i == line.length
       puts "The line is currently:" << " #{line.index}. #{line[customer]}"
+      i += 1
     end
   end
 end
