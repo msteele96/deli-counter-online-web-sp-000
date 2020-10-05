@@ -1,5 +1,3 @@
-#line = []
-
 def line(line)
   case line.length
   when 0
